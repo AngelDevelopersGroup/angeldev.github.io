@@ -1,0 +1,28 @@
+/*
+  author: sawich (sawich@angeldev.org)
+
+  created: 06-07-2018 18:10:37
+  updated: 06-07-2018 18:18:27
+*/
+
+a {
+  text-decoration: none;
+  color: #fff;
+	animation-delay: calc(2s + 4s * 0.3);
+}
+
+a:hover {
+  color: #00bfff;
+}
+
+a[href*="discord.gg/"] {
+  background:url('../img/links/dd.png') no-repeat left center;
+  padding-left: 20px;
+  background-size: 16px;
+}
+
+a[href*="vk.com/"] {
+  background:url('../img/links/vk.png') no-repeat left center;
+  padding-left: 20px;
+  background-size: 16px;
+}
